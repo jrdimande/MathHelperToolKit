@@ -1,5 +1,6 @@
 # módulos e funções
 import math
+from math import sqrt
 import random
 from time import sleep
 
@@ -90,7 +91,6 @@ def handle_equacao2grau():
         if d < 0:
             solproblem()
         else:
-            from math import sqrt
             d1 = sqrt(d)
             v1 = (-b + d1) / (2 * a)
             v2 = (-b - d1) / (2 * a)
